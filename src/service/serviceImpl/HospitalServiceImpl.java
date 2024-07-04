@@ -19,5 +19,21 @@ public class HospitalServiceImpl implements HospitalService {
     @Override
     public Optional<Hospital> getHospitalByID(Long id) {
         return hospitalDao.getHospitalByID(id);
+
+
+
+    @Override
+    public String updateHospital(Long id, Hospital hospital) {
+        return null;
+    }
+
+    @Override
+    public String deleteHospitalById(Long id) {
+        return null;
+    }
+
+    @Override
+    public Hospital getHospitalById(Long hosId) {
+        return null;
     }
 }
