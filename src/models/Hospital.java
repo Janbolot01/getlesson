@@ -9,6 +9,10 @@ public class Hospital {
     private String address;
     private List<Department> departments = new ArrayList<>();
     private List<Doctor> doctors = new ArrayList<>();
+
+    public Hospital() {
+    }
+
     public Hospital(Long id, String hospitalName, String address, List<Department> departments, List<Doctor> doctors) {
         this.id = id;
         this.hospitalName = hospitalName;
@@ -16,6 +20,7 @@ public class Hospital {
         this.departments = departments;
         this.doctors = doctors;
     }
+
     public Long getId() {
         return id;
     }
